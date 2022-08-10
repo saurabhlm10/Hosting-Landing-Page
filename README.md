@@ -5,4 +5,6 @@
 - A combination of `linear-gradient` and `padding` was used to give a gradient border effect to the "Register Now" button in the navigation bar.
 ***
 
+# [Deployed Link](https://saurabh-hosting-landing-page.netlify.app/)
+
 ## Time Taken to Complete Project: **6 hours**
