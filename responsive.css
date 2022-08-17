@@ -1,0 +1,175 @@
+@media screen and (max-width: 1000px) {
+
+    *{
+    }
+
+    nav{
+        flex-direction: column;
+        margin: 20px 0 0 0;
+        height: 25vh;
+
+    }
+
+    .list-items{
+        margin-left: 0;
+        width: 80vw;
+
+    }
+
+    .nav-button button{
+        margin: 0;
+    }
+
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner{
+        flex-direction: column;
+
+        text-align: center;
+        align-items: center;
+        min-height: 120vh;
+
+    }
+    .banner-text{
+        width: 80vw;
+    }
+
+    .banner-text p{
+        width: 80vw;
+
+    }
+
+    .banner-1 .banner-image{
+        display: grid;
+        place-items: center;
+        margin-top: 20vh;
+    }
+
+    .banner-1 .banner-image img, .banner-2 .banner-image img, .banner-3 .banner-image img{
+        height: 400px;
+        width: 480px;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .services-heading-section{
+        flex-direction: column;
+    }
+
+    .services-heading{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .services-description{
+        margin-top: 30px;
+        width: 80vw;
+    }
+
+    .services-item-line-1, .services-item-line-2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .service-items{
+        margin-top: 30px;
+    }
+
+    .service-item{
+        width: 80vw;
+        margin-top: 30px;
+    }
+
+    .pricing{
+        text-align: center;
+    }
+
+    .pricing-packages{
+        flex-direction: column;
+    }
+
+    .package{
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 88vh;
+
+    }
+
+    .package-header{
+        width: 60vw;
+        padding: 40px 0;
+    }
+
+    .package-header h1{
+        font-size: 1.575rem;
+    }
+
+    .price-section p{
+        margin-left: 0px;
+    }
+
+    .review-heading h1{
+        font-size: 40px;
+    }
+
+    .reviews{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .register-section{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 45vh;
+    }
+
+    .register-left{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .register-left p{
+        width: 80vw;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0;
+        text-align: center;
+        padding-top: 5vh;
+    }
+
+    .footer-left{
+        width: 80vw;
+
+    }
+
+    .footer-middle{
+        flex-direction: column;
+        margin-top: 10vh;
+        width: 80vw;
+        margin-left: 0vw;
+    }
+
+    .footer-menu{
+        margin-top: 40px;
+    }
+
+    .footer-menu p{
+        margin-top: 15px;
+    }
+}
